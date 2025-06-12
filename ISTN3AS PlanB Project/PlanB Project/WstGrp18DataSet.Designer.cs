@@ -4875,8 +4875,8 @@ SELECT UserId, UserName, Password, Job_description FROM Users WHERE (UserId = @U
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "SELECT UserId, UserName, Password, Job_description FROM Users WHERE (UserName = @" +
-                "username) AND (Password = @password)";
+            this._commandCollection[1].CommandText = "SELECT UserId, UserName, Password, Job_description\r\nFROM     Users\r\nWHERE  (UserN" +
+                "ame = @username) AND (Password = @password) AND (Job_description = \'job\')";
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@username", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "UserName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@password", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "Password", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));

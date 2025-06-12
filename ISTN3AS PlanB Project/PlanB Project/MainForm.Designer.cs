@@ -35,8 +35,7 @@
             this.appointmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.treatmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bookAppointmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewAppointmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dentistToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +47,8 @@
             this.accessModifierToolStripMenuItem,
             this.appointmentToolStripMenuItem,
             this.treatmentToolStripMenuItem,
-            this.logoutToolStripMenuItem});
+            this.logoutToolStripMenuItem,
+            this.dentistToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(977, 33);
@@ -66,15 +66,12 @@
             // receptionistLoginToolStripMenuItem
             // 
             this.receptionistLoginToolStripMenuItem.Name = "receptionistLoginToolStripMenuItem";
-            this.receptionistLoginToolStripMenuItem.Size = new System.Drawing.Size(142, 30);
+            this.receptionistLoginToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.receptionistLoginToolStripMenuItem.Text = "Login";
             this.receptionistLoginToolStripMenuItem.Click += new System.EventHandler(this.receptionistLoginToolStripMenuItem_Click);
             // 
             // appointmentToolStripMenuItem
             // 
-            this.appointmentToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bookAppointmentToolStripMenuItem,
-            this.viewAppointmentToolStripMenuItem});
             this.appointmentToolStripMenuItem.Name = "appointmentToolStripMenuItem";
             this.appointmentToolStripMenuItem.Size = new System.Drawing.Size(132, 29);
             this.appointmentToolStripMenuItem.Text = "Appointment";
@@ -91,17 +88,12 @@
             this.logoutToolStripMenuItem.Size = new System.Drawing.Size(83, 29);
             this.logoutToolStripMenuItem.Text = "Logout";
             // 
-            // bookAppointmentToolStripMenuItem
+            // dentistToolStripMenuItem
             // 
-            this.bookAppointmentToolStripMenuItem.Name = "bookAppointmentToolStripMenuItem";
-            this.bookAppointmentToolStripMenuItem.Size = new System.Drawing.Size(250, 30);
-            this.bookAppointmentToolStripMenuItem.Text = "Book Appointment";
-            // 
-            // viewAppointmentToolStripMenuItem
-            // 
-            this.viewAppointmentToolStripMenuItem.Name = "viewAppointmentToolStripMenuItem";
-            this.viewAppointmentToolStripMenuItem.Size = new System.Drawing.Size(250, 30);
-            this.viewAppointmentToolStripMenuItem.Text = "View Appointment";
+            this.dentistToolStripMenuItem.Name = "dentistToolStripMenuItem";
+            this.dentistToolStripMenuItem.Size = new System.Drawing.Size(82, 29);
+            this.dentistToolStripMenuItem.Text = "Dentist";
+            this.dentistToolStripMenuItem.Click += new System.EventHandler(this.dentistToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -130,8 +122,7 @@
         private System.Windows.Forms.ToolStripMenuItem treatmentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem receptionistLoginToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bookAppointmentToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem viewAppointmentToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dentistToolStripMenuItem;
     }
 }
 
