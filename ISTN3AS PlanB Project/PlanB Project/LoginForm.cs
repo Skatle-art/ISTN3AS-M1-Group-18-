@@ -27,6 +27,7 @@ namespace PlanB_Project
         {
             String username;
             int password;
+            string Job_description;
             usersTableAdapter1.LoginUser(wstGrp18DataSet1.Users, LoginUserNameBox.Text, LoginPasswordBox.Text);
             if (wstGrp18DataSet1.Users.Count > 0)
             { 

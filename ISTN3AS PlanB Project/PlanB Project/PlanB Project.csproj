@@ -78,6 +78,9 @@
     <Compile Include="ReceptionistForm.Designer.cs">
       <DependentUpon>ReceptionistForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="WstGrp18DataSet.cs">
+      <DependentUpon>WstGrp18DataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="WstGrp18DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
