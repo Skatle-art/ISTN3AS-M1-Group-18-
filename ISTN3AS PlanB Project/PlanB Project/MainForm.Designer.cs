@@ -35,6 +35,8 @@
             this.appointmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.treatmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bookAppointmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewAppointmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,12 +66,15 @@
             // receptionistLoginToolStripMenuItem
             // 
             this.receptionistLoginToolStripMenuItem.Name = "receptionistLoginToolStripMenuItem";
-            this.receptionistLoginToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.receptionistLoginToolStripMenuItem.Size = new System.Drawing.Size(142, 30);
             this.receptionistLoginToolStripMenuItem.Text = "Login";
             this.receptionistLoginToolStripMenuItem.Click += new System.EventHandler(this.receptionistLoginToolStripMenuItem_Click);
             // 
             // appointmentToolStripMenuItem
             // 
+            this.appointmentToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bookAppointmentToolStripMenuItem,
+            this.viewAppointmentToolStripMenuItem});
             this.appointmentToolStripMenuItem.Name = "appointmentToolStripMenuItem";
             this.appointmentToolStripMenuItem.Size = new System.Drawing.Size(132, 29);
             this.appointmentToolStripMenuItem.Text = "Appointment";
@@ -85,6 +90,18 @@
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
             this.logoutToolStripMenuItem.Size = new System.Drawing.Size(83, 29);
             this.logoutToolStripMenuItem.Text = "Logout";
+            // 
+            // bookAppointmentToolStripMenuItem
+            // 
+            this.bookAppointmentToolStripMenuItem.Name = "bookAppointmentToolStripMenuItem";
+            this.bookAppointmentToolStripMenuItem.Size = new System.Drawing.Size(250, 30);
+            this.bookAppointmentToolStripMenuItem.Text = "Book Appointment";
+            // 
+            // viewAppointmentToolStripMenuItem
+            // 
+            this.viewAppointmentToolStripMenuItem.Name = "viewAppointmentToolStripMenuItem";
+            this.viewAppointmentToolStripMenuItem.Size = new System.Drawing.Size(250, 30);
+            this.viewAppointmentToolStripMenuItem.Text = "View Appointment";
             // 
             // MainForm
             // 
@@ -113,6 +130,8 @@
         private System.Windows.Forms.ToolStripMenuItem treatmentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem receptionistLoginToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bookAppointmentToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewAppointmentToolStripMenuItem;
     }
 }
 
