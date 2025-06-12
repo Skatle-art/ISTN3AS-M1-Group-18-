@@ -68,5 +68,12 @@ namespace PlanB_Project
 
             
         }
+
+        private void dentistToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            DentistForm Twoslice = new DentistForm();
+            PrepareForm(Twoslice);
+        }
     }
 }
