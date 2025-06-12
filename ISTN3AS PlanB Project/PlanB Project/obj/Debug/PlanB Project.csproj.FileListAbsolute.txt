@@ -10,3 +10,15 @@ C:\Users\Student\OneDrive\Desktop\ISTN3AS\PlanB Project\obj\Debug\PlanB Project.
 C:\Users\Student\OneDrive\Desktop\ISTN3AS\PlanB Project\obj\Debug\PlanB Project.exe
 C:\Users\Student\OneDrive\Desktop\ISTN3AS\PlanB Project\obj\Debug\PlanB Project.pdb
 C:\Users\Student\OneDrive\Desktop\ISTN3AS\PlanB Project\obj\Debug\PlanB Project.exe.config
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\bin\Debug\PlanB Project.exe.config
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\bin\Debug\PlanB Project.exe
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\bin\Debug\PlanB Project.pdb
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB Project.csproj.AssemblyReference.cache
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB_Project.MainForm.resources
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB_Project.LoginForm.resources
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB_Project.Properties.Resources.resources
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB Project.csproj.GenerateResource.cache
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB Project.csproj.CoreCompileInputs.cache
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB Project.exe
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB Project.pdb
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB Project.exe.config

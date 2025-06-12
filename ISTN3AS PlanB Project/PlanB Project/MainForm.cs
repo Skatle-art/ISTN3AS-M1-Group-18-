@@ -45,7 +45,7 @@ namespace PlanB_Project
         }
 
         private void receptionistLoginToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+        {     
             if (ActiveMdiChild != null)
             {
                 ActiveMdiChild.Close();
@@ -60,7 +60,7 @@ namespace PlanB_Project
         public void ShowLoginForm(Form Lform)
         {
             // Set default size
-            Lform.Size = new Size(500, 500); // Width = 400, Height = 300
+            //Lform.Size = new Size(500, 500); // Width = 400, Height = 300
 
             // Center the form on screen
             Lform.StartPosition = FormStartPosition.CenterScreen;

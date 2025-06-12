@@ -31,17 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.accessModifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.receptionistLoginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.appointmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.treatmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.receptionistLoginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dentistToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.assistantToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.accessModifierToolStripMenuItem,
@@ -50,55 +49,41 @@
             this.logoutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(977, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(977, 33);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // accessModifierToolStripMenuItem
             // 
             this.accessModifierToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.receptionistLoginToolStripMenuItem,
-            this.dentistToolStripMenuItem,
-            this.assistantToolStripMenuItem});
+            this.receptionistLoginToolStripMenuItem});
             this.accessModifierToolStripMenuItem.Name = "accessModifierToolStripMenuItem";
-            this.accessModifierToolStripMenuItem.Size = new System.Drawing.Size(130, 24);
+            this.accessModifierToolStripMenuItem.Size = new System.Drawing.Size(153, 29);
             this.accessModifierToolStripMenuItem.Text = "Access_Modifier";
+            // 
+            // receptionistLoginToolStripMenuItem
+            // 
+            this.receptionistLoginToolStripMenuItem.Name = "receptionistLoginToolStripMenuItem";
+            this.receptionistLoginToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.receptionistLoginToolStripMenuItem.Text = "Login";
+            this.receptionistLoginToolStripMenuItem.Click += new System.EventHandler(this.receptionistLoginToolStripMenuItem_Click);
             // 
             // appointmentToolStripMenuItem
             // 
             this.appointmentToolStripMenuItem.Name = "appointmentToolStripMenuItem";
-            this.appointmentToolStripMenuItem.Size = new System.Drawing.Size(111, 24);
+            this.appointmentToolStripMenuItem.Size = new System.Drawing.Size(132, 29);
             this.appointmentToolStripMenuItem.Text = "Appointment";
             // 
             // treatmentToolStripMenuItem
             // 
             this.treatmentToolStripMenuItem.Name = "treatmentToolStripMenuItem";
-            this.treatmentToolStripMenuItem.Size = new System.Drawing.Size(115, 24);
+            this.treatmentToolStripMenuItem.Size = new System.Drawing.Size(134, 29);
             this.treatmentToolStripMenuItem.Text = "Patient Profile";
-            // 
-            // receptionistLoginToolStripMenuItem
-            // 
-            this.receptionistLoginToolStripMenuItem.Name = "receptionistLoginToolStripMenuItem";
-            this.receptionistLoginToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.receptionistLoginToolStripMenuItem.Text = "Receptionist";
-            this.receptionistLoginToolStripMenuItem.Click += new System.EventHandler(this.receptionistLoginToolStripMenuItem_Click);
-            // 
-            // dentistToolStripMenuItem
-            // 
-            this.dentistToolStripMenuItem.Name = "dentistToolStripMenuItem";
-            this.dentistToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.dentistToolStripMenuItem.Text = "Dentist";
-            // 
-            // assistantToolStripMenuItem
-            // 
-            this.assistantToolStripMenuItem.Name = "assistantToolStripMenuItem";
-            this.assistantToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.assistantToolStripMenuItem.Text = "Assistant";
             // 
             // logoutToolStripMenuItem
             // 
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(83, 29);
             this.logoutToolStripMenuItem.Text = "Logout";
             // 
             // MainForm
@@ -127,8 +112,6 @@
         private System.Windows.Forms.ToolStripMenuItem appointmentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem treatmentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem receptionistLoginToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dentistToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem assistantToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
     }
 }
