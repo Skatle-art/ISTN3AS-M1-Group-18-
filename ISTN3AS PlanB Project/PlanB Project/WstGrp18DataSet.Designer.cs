@@ -4876,9 +4876,9 @@ SELECT UserId, UserName, Password, Job_description FROM Users WHERE (UserId = @U
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[1].Connection = this.Connection;
             this._commandCollection[1].CommandText = "SELECT UserId, UserName, Password, Job_description\r\nFROM     Users\r\nWHERE  (UserN" +
-                "ame = @username) AND (Password = @password) AND (Job_description = \'job\')";
+                "ame = @user) AND (Password = @password)";
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@username", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "UserName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@user", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "UserName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@password", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "Password", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
@@ -4910,13 +4910,13 @@ SELECT UserId, UserName, Password, Job_description FROM Users WHERE (UserId = @U
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int LoginUser(WstGrp18DataSet.UsersDataTable dataTable, string username, string password) {
+        public virtual int UserLogin(WstGrp18DataSet.UsersDataTable dataTable, string user, string password) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
-            if ((username == null)) {
-                throw new global::System.ArgumentNullException("username");
+            if ((user == null)) {
+                throw new global::System.ArgumentNullException("user");
             }
             else {
-                this.Adapter.SelectCommand.Parameters[0].Value = ((string)(username));
+                this.Adapter.SelectCommand.Parameters[0].Value = ((string)(user));
             }
             if ((password == null)) {
                 throw new global::System.ArgumentNullException("password");
@@ -4935,13 +4935,13 @@ SELECT UserId, UserName, Password, Job_description FROM Users WHERE (UserId = @U
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual WstGrp18DataSet.UsersDataTable GetDataBy(string username, string password) {
+        public virtual WstGrp18DataSet.UsersDataTable GetDataBy(string user, string password) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
-            if ((username == null)) {
-                throw new global::System.ArgumentNullException("username");
+            if ((user == null)) {
+                throw new global::System.ArgumentNullException("user");
             }
             else {
-                this.Adapter.SelectCommand.Parameters[0].Value = ((string)(username));
+                this.Adapter.SelectCommand.Parameters[0].Value = ((string)(user));
             }
             if ((password == null)) {
                 throw new global::System.ArgumentNullException("password");

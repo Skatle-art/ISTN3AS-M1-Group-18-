@@ -37,8 +37,11 @@
             this.LoginBtn = new System.Windows.Forms.Button();
             this.wstGrp18DataSet1 = new PlanB_Project.WstGrp18DataSet();
             this.usersTableAdapter1 = new PlanB_Project.WstGrp18DataSetTableAdapters.UsersTableAdapter();
+            this.wstGrp18DataSet2 = new PlanB_Project.WstGrp18DataSet();
+            this.usersTableAdapter2 = new PlanB_Project.WstGrp18DataSetTableAdapters.UsersTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wstGrp18DataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wstGrp18DataSet2)).BeginInit();
             this.SuspendLayout();
             // 
             // LoginUserNameBox
@@ -111,6 +114,15 @@
             // 
             this.usersTableAdapter1.ClearBeforeFill = true;
             // 
+            // wstGrp18DataSet2
+            // 
+            this.wstGrp18DataSet2.DataSetName = "WstGrp18DataSet";
+            this.wstGrp18DataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // usersTableAdapter2
+            // 
+            this.usersTableAdapter2.ClearBeforeFill = true;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -126,20 +138,22 @@
             this.Text = "LoginForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wstGrp18DataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wstGrp18DataSet2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox LoginUserNameBox;
-        private System.Windows.Forms.TextBox LoginPasswordBox;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button LoginBtn;
         private WstGrp18DataSet wstGrp18DataSet1;
         private WstGrp18DataSetTableAdapters.UsersTableAdapter usersTableAdapter1;
+        private WstGrp18DataSet wstGrp18DataSet2;
+        private WstGrp18DataSetTableAdapters.UsersTableAdapter usersTableAdapter2;
+        public System.Windows.Forms.TextBox LoginUserNameBox;
+        public System.Windows.Forms.TextBox LoginPasswordBox;
     }
 }
