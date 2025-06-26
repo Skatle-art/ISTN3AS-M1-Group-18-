@@ -23,3 +23,5 @@ C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Pr
 C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\bin\Debug\PlanB Project.pdb
 C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB Project.exe
 C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB Project.pdb
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB_Project.AssistantForm.resources
+C:\Users\Student\OneDrive\Documents\GitHub\ISTN3AS-M1-Group-18-\ISTN3AS PlanB Project\PlanB Project\obj\Debug\PlanB Project.exe.config
